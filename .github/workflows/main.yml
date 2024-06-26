@@ -41,7 +41,7 @@ jobs:
               git remote add origin https://github.com/Deepak2202-del/nestjs-hello-world.git
             fi
             git fetch origin
-            git reset --hard origin/master  # Use the correct branch name
+            git pull origin master # Use the correct branch name
             
             npm install
             npm run build
